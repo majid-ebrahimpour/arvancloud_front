@@ -1,0 +1,37 @@
+.arvancloud-app .hide {
+    display: none;
+}
+
+.arvancloud-app .text-right {
+    text-align: right;
+}
+
+.arvancloud-app .row {
+    display: -moz-flex;
+    display: flex;
+    width: 100%;
+    padding: 4px 0px;
+}
+
+.arvancloud-app .row .col {
+    -moz-flex: 1;
+    flex: 1;
+    display: block;
+    width: 100%;
+}
+
+.arvancloud-app .container .domain-list {
+    width: 70%;
+    float: left;
+}
+
+.arvancloud-app .container .description {
+    width: 30%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #b8daff;
+    color: #004085;
+    background-color: #cce5ff;
+    border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+<div id="domain">
+    <h1>
+        Add new domain:
+    </h1>
+    <div style="width: 50%;">
+        <form method="POST" class="domain-form">
+            <div class="row">
+                <div class="col">
+                    Title:
+                </div>
+                <div class="col">
+                    <input type="text" name="title" required autofocus />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    URL:
+                </div>
+                <div class="col">
+                    <input type="text" name="url" required />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <button type="button" class="domain-form-submit" name="domain-submit">
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <hr/>
+    <h1>
+        Domain list:
+    </h1>
+    <div>
+        <div class="domain-list">
+            <div class="domain-list-head">
+                <div class="row">
+                    <div class="col">#</div>
+                    <div class="col">Title</div>
+                    <div class="col">URL</div>
+                    <div class="col">Action</div>
+                </div>
+            </div>
+            <div class="domain-list-body"></div>
+        </div>
+        <div class="description">
+            <h4>
+                Verify Domain:
+            </h4>
+            <p>
+                Paste the meta tag into the &lthead&gt section that’s before the first &ltbody&gt section
+            </p>
+            <P>
+                &ltmeta name="arvancloud-site-verification" content="arvancloud-app" /&gt
+            </P>
+        </div>
+    </div>
+</div>
