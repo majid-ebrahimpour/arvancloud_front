@@ -18,7 +18,7 @@ export default class SignupController {
 	init() {
 		this.storeService.setUser(null);
 		localStorage.removeItem('token');
-		this.signinView.hiddenAppHeader();
+		this.signupView.hiddenAppHeader();
 	}
 
 	/**
